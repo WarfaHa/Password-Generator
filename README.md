@@ -17,7 +17,7 @@ This week, we had to create a functional password generator. The user should be 
 ![Screenshot-of-Portfolio](/assets/GeneratorScreenshot.png)
 
 Deployed Site:
-
+https://warfaha.github.io/Password-Generator/
 
 ## Installation
 N/A 
