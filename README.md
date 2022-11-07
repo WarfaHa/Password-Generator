@@ -14,7 +14,7 @@ This week, we had to create a functional password generator. The user should be 
 
 ## Screenshot
 
-![Screenshot-of-Portfolio](/assets/GeneratorScreenshot.png
+![Screenshot-of-Portfolio](/assets/GeneratorScreenshot.png)
 
 Deployed Site:
 
