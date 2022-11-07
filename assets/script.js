@@ -29,12 +29,13 @@ function generatePassword() {
     )
   );
 
-  // Validates if user enters a value
+  // Validates if user does not enter a value, they get an alert
   if (!passwordLength) {
     alert("Please enter a value, try again!");
   }
 
   // Validates user's password length
+  // if user picks an invalid length, they get an alert message
   else if (passwordLength < 8 || passwordLength > 128) {
     alert("Password must has have length of at least 8 characters and no more than 128 characters, please try again!");
   } 
@@ -53,7 +54,7 @@ function generatePassword() {
     );
   }
 
-  // declared userChoices variable
+// If user does not pick any criteria they get an alert message
   if (
     !promptUserLowercase &&
     !promptUserUppercase &&
@@ -112,4 +113,5 @@ function writePassword() {
 }
 
 // Add event listener to generate button
+// This listens for a click then calls the function to write the password
 generateBtn.addEventListener("click", writePassword);
